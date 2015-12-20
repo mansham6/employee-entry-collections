@@ -1,0 +1,35 @@
+[1mdiff --git a/src/main/java/com/sqa/ms/employees/IPerson.java b/src/main/java/com/sqa/ms/employees/IPerson.java[m
+[1mindex f1a478c..0a36a33 100644[m
+[1m--- a/src/main/java/com/sqa/ms/employees/IPerson.java[m
+[1m+++ b/src/main/java/com/sqa/ms/employees/IPerson.java[m
+[36m@@ -5,7 +5,7 @@[m
+  *   Java Boot Camp Exercise<br>[m
+  *   Instructor: Jean-francois Nepton<br>[m
+  *   Created: Dec 19, 2015[m
+[31m- *   [m
+[32m+[m[32m *[m
+  */[m
+ [m
+ package com.sqa.ms.employees;[m
+[36m@@ -16,12 +16,17 @@[m [mpackage com.sqa.ms.employees;[m
+  * //ADDD (description of core fields)[m
+  * <p>[m
+  * //ADDD (description of core methods)[m
+[31m- * [m
+[31m- * @author      LastName, FirstName[m
+[31m- * @version     1.0.0[m
+[31m- * @since       1.0[m
+[32m+[m[32m *[m
+[32m+[m[32m * @author LastName, FirstName[m
+[32m+[m[32m * @version 1.0.0[m
+[32m+[m[32m * @since 1.0[m
+  *[m
+  */[m
+ public interface IPerson {[m
+[32m+[m	[32mfinal static int MAX_AGE = 110;[m
+[32m+[m
+[32m+[m	[32mpublic String getName();[m
+[32m+[m
+[32m+[m	[32mpublic boolean move();[m
+ [m
+ }[m
